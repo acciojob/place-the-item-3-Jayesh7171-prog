@@ -1,2 +1,19 @@
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
 
-/* Your CSS Code here. */
+.item {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 6px;
+    min-width: 120px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
